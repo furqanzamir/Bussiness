@@ -14,7 +14,7 @@
 </head>
 
 <body>
-<div class="container">
+<div class="container" id="home">
 	<div class="row">
 		<div class="col-md-12">
 			<div class="col-md-3"><img src="img/logo.png" alt="" class="logo"></div>
@@ -23,13 +23,13 @@
 			<div class="menu">
 				
 			<ul>
-				<li><a href="#">Home</a></li>
-				<li><a href="#">About Us</a></li>
-				<li><a href="#">Services</a></li>
-				<li><a href="#">Portfolio</a></li>
-				<li><a href="#">Team</a></li>
-				<li><a href="#">Featured</a></li>
-				<li><a href="#">Contact US</a></li>
+				<li><a href="#home" >Home</a></li>
+				<li><a href="#aboutus" >About Us</a></li>
+				<li><a href="#services" >Services</a></li>
+				<li><a href="#portfolio" >Portfolio</a></li>
+				<li><a href="#team" >Team</a></li>
+				<li><a href="#featured" >Featured</a></li>
+				<li><a href="#contactus" >Contact US</a></li>
 				
 			</ul>
 			</div>
@@ -90,7 +90,7 @@
 </div>
 
 
-	<section class="about-us">
+	<section class="about-us" id="aboutus">
 		<div class="row">
 			<h2 class="text-center">About US</h2>
 	        <div class="border-line"></div>
@@ -111,7 +111,7 @@
 	</div>
 	</section>
 
-	<section class="services">
+	<section class="services" id="services">
 		<div class="row">
 			<h2 class="text-center">Services</h2>
 	        <div class="border-line"></div>
@@ -139,7 +139,7 @@
 	</div>
 	</section>
 
-	<section id="amazing-feature">
+	<section id="featured">
 		<div class="row">
 			<h2 class="text-center">Amazing Features</h2>
 			<div class="border-line"></div>
@@ -181,8 +181,69 @@
 		</div>
 	</section>
 
+	<section id="portfolio">
 
-	<section class="services">
+		<div class="container">
+  
+  <div class="col-md-12">
+    
+    <h3 class="text-center">Portfolio</h3>
+    
+    <div class="">
+     
+    <div id="myCarousel" class="carousel slide">
+     
+    <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+     
+    <!-- Carousel items -->
+    <div class="carousel-inner">
+        
+    <div class="item active">
+        <div class="row-fluid">
+          <div class="col-md-3"><a href="#x" class="thumbnail"><img src="http://placehold.it/250x250" alt="Image" style="max-width:100%;"></a></div>
+          <div class="col-md-3"><a href="#x" class="thumbnail"><img src="http://placehold.it/250x250" alt="Image" style="max-width:100%;"></a></div>
+          <div class="col-md-3"><a href="#x" class="thumbnail"><img src="http://placehold.it/250x250" alt="Image" style="max-width:100%;"></a></div>
+          <div class="col-md-3"><a href="#x" class="thumbnail"><img src="http://placehold.it/250x250" alt="Image" style="max-width:100%;"></a></div>
+        </div><!--/row-fluid-->
+    </div><!--/item-->
+     
+    <div class="item">
+        <div class="row-fluid">
+            <div class="col-md-3"><a href="#x" class="thumbnail"><img src="http://placehold.it/250x250" alt="Image" style="max-width:100%;"></a></div>
+            <div class="col-md-3"><a href="#x" class="thumbnail"><img src="http://placehold.it/250x250" alt="Image" style="max-width:100%;"></a></div>
+            <div class="col-md-3"><a href="#x" class="thumbnail"><img src="http://placehold.it/250x250" alt="Image" style="max-width:100%;"></a></div>
+            <div class="col-md-3"><a href="#x" class="thumbnail"><img src="http://placehold.it/250x250" alt="Image" style="max-width:100%;"></a></div>
+        </div><!--/row-fluid-->
+    </div><!--/item-->
+     
+    <div class="item">
+        <div class="row-fluid">
+            <div class="col-md-3"><a href="#x" class="thumbnail"><img src="http://placehold.it/250x250" alt="Image" style="max-width:100%;"></a></div>
+            <div class="col-md-3"><a href="#x" class="thumbnail"><img src="http://placehold.it/250x250" alt="Image" style="max-width:100%;"></a></div>
+            <div class="col-md-3"><a href="#x" class="thumbnail"><img src="http://placehold.it/250x250" alt="Image" style="max-width:100%;"></a></div>
+            <div class="col-md-3"><a href="#x" class="thumbnail"><img src="http://placehold.it/250x250" alt="Image" style="max-width:100%;"></a></div>
+        </div><!--/row-fluid-->
+    </div><!--/item-->
+     
+    </div><!--/carousel-inner-->
+     
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">‹</a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">›</a>
+    </div><!--/myCarousel-->
+     
+    </div><!--/well-->
+  </div>
+</div>
+ 
+
+	</section>
+
+
+	<section class="services" id="team">
 		<div class="row">
 			<h2 class="text-center">Team</h2>
 	        <div class="border-line"></div>
@@ -220,43 +281,43 @@
 	</div>
 	</section>
 
-	<div class="container">
+	<div class="container" id="contactus">
     <div class="row">
         <div class="col-md-12">
-            <div class="well well-sm">
-                <form class="form-horizontal" method="post">
+            <div class="">
+                <form class="form-horizontal" >
                     <fieldset>
-                        <legend class="text-center header">Contact us</legend>
+                        <h3 class="text-center header">Contact us</h3>
 
                         <div class="form-group">
-                            <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
+                            <span class="col-md-1 col-md-offset-1 text-center"><i class="fa fa-user bigicon"></i></span>
                             <div class="col-md-8">
                                 <input id="fname" name="name" type="text" placeholder="First Name" class="form-control">
                             </div>
                         </div>
                         <div class="form-group">
-                            <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
+                            <span class="col-md-1 col-md-offset-1 text-center"><i class="fa fa-user bigicon"></i></span>
                             <div class="col-md-8">
                                 <input id="lname" name="name" type="text" placeholder="Last Name" class="form-control">
                             </div>
                         </div>
 
                         <div class="form-group">
-                            <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-envelope-o bigicon"></i></span>
+                            <span class="col-md-1 col-md-offset-1 text-center"><i class="fa fa-envelope-o bigicon"></i></span>
                             <div class="col-md-8">
                                 <input id="email" name="email" type="text" placeholder="Email Address" class="form-control">
                             </div>
                         </div>
 
                         <div class="form-group">
-                            <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-phone-square bigicon"></i></span>
+                            <span class="col-md-1 col-md-offset-1 text-center"><i class="fa fa-phone-square bigicon"></i></span>
                             <div class="col-md-8">
                                 <input id="phone" name="phone" type="text" placeholder="Phone" class="form-control">
                             </div>
                         </div>
 
                         <div class="form-group">
-                            <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-pencil-square-o bigicon"></i></span>
+                            <span class="col-md-1 col-md-offset-1 text-center"><i class="fa fa-pencil-square-o bigicon"></i></span>
                             <div class="col-md-8">
                                 <textarea class="form-control" id="message" name="message" placeholder="Enter your massage for us here. We will get back to you within 2 business days." rows="7"></textarea>
                             </div>
@@ -285,6 +346,32 @@
         font-size: 35px;
         color: #36A0FF;
     }
+    .carousel {
+	margin-bottom: 0;
+	padding: 0 40px 30px 40px;
+}
+
+.carousel-control {
+	left: -12px;
+}
+.carousel-control.right {
+	right: -12px;
+}
+
+.carousel-indicators {
+	right: 50%;
+	top: auto;
+	bottom: 0px;
+	margin-right: -19px;
+}
+
+.carousel-indicators li {
+	background: #c0c0c0;
+}
+
+.carousel-indicators .active {
+background: #333333;
+}
 </style>
 
 
@@ -293,5 +380,16 @@
 <!-- Latest compiled and minified JavaScript -->
 <script src="js/jquery-min.js"></script>
 <script src="js/bootstrap.min.js"></script>
+<script type="text/javascript">
+$('a[href*=#]').on('click', function(event){     
+    event.preventDefault();
+    $('html,body').animate({scrollTop:$(this.hash).offset().top}, 800);
+});
+$(document).ready(function() {
+	$('#myCarousel').carousel({
+	interval: 10000
+	})
+});
+</script>
 </body>
 </html>
