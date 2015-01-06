@@ -1,0 +1,28 @@
+@charset "utf-8";
+/* CSS Document */
+ul{margin: 0px; padding: 0px;}
+.gl-font{
+	font-size:5em;
+	}
+.gl-font2{
+	font-size:3em;
+	float: left;
+	}
+.border-line{
+	border: 1px solid #0196a7;
+	width: 160px;
+	text-align: center;
+	margin: 10px auto;
+	height: 1px;
+	}
+h2,h3,h4,h5,h6{
+	color: #0196a7;
+	}
+p{
+	color:#c8c8c8;
+	}
+.logo{float: left;}
+.menu{line-height: 80px; float: right;}
+.menu ul li{ display: inline; padding: 0px 10px;  }
+.menu ul li a{color: #fff; text-decoration: none;}
+.menu ul li a:hover{color: #ccc; text-decoration: none;}
