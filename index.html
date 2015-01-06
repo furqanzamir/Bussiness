@@ -387,15 +387,15 @@ background: #333333;
 <script src="js/jquery-min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script type="text/javascript">
-$('a[href*=#]').on('click', function(event){     
+$('.menu a[href*=#]').on('click', function(event){     
     event.preventDefault();
     $('html,body').animate({scrollTop:$(this.hash).offset().top}, 800);
 });
-$(document).ready(function() {
+
 	$('#myCarousel').carousel({
 	interval: 10000
 	})
-});
+
 </script>
 </body>
 </html>
