@@ -26,3 +26,46 @@ p{
 .menu ul li{ display: inline; padding: 0px 10px;  }
 .menu ul li a{color: #fff; text-decoration: none;}
 .menu ul li a:hover{color: #ccc; text-decoration: none;}
+
+    .header {
+        color: #36A0FF;
+        font-size: 27px;
+        padding: 10px;
+    }
+
+    .bigicon {
+        font-size: 35px;
+        color: #36A0FF;
+    }
+    .carousel {
+	margin-bottom: 0;
+	padding: 0 40px 30px 40px;
+}
+
+.carousel-control {
+	left: -12px;
+}
+.carousel-control.right {
+	right: -12px;
+}
+
+.carousel-indicators {
+	right: 50%;
+	top: auto;
+	bottom: 0px;
+	margin-right: -19px;
+}
+
+.carousel-indicators li {
+	background: #c0c0c0;
+}
+
+.carousel-indicators .active {
+background: #333333;
+}
+.copy-right{
+	color: #fff;
+	text-align: center;
+	line-height: 40px;
+}
+

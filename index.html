@@ -11,6 +11,8 @@
 
 <!-- custom style-->
 <link rel="stylesheet" href="css/style.css" type="text/css"/>
+
+<link rel="stylesheet" href="css/animations.css">
 </head>
 
 <body>
@@ -339,50 +341,9 @@
     </div>
 </div>
 
-<style>
-    .header {
-        color: #36A0FF;
-        font-size: 27px;
-        padding: 10px;
-    }
 
-    .bigicon {
-        font-size: 35px;
-        color: #36A0FF;
-    }
-    .carousel {
-	margin-bottom: 0;
-	padding: 0 40px 30px 40px;
-}
 
-.carousel-control {
-	left: -12px;
-}
-.carousel-control.right {
-	right: -12px;
-}
-
-.carousel-indicators {
-	right: 50%;
-	top: auto;
-	bottom: 0px;
-	margin-right: -19px;
-}
-
-.carousel-indicators li {
-	background: #c0c0c0;
-}
-
-.carousel-indicators .active {
-background: #333333;
-}
-.copy-right{
-	color: #fff;
-	text-align: center;
-	line-height: 40px;
-}
-</style>
-
+<div ><a href="#" id="object">slide</a></div>
 <section class="copy-right">2015 &amp; All Rights Reserved | <a target="_blank" title="UserInterface Developer" href="https://www.facebook.com/userplatform">UserInterface Developer</a><span style="text-align:right; "> | Design And Develope By <a href="http://furqan-portfolio.co.nf">Furqan Studio</a></span></section>
 
 </div>
@@ -398,7 +359,11 @@ $('.menu a[href*=#]').on('click', function(event){
 
 	$('#myCarousel').carousel({
 	interval: 10000
-	})
+	});
+
+$('#animatedElement').click(function() {
+		$(this).addClass("slideleft");
+	});
 
 </script>
 </body>
